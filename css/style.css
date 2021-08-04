@@ -8,13 +8,14 @@ body {
 }
 
 body .card {
-  padding: 18%;
+  padding: 14%;
   color: rgba(255, 255, 255, 0.75);
   background-color: #e38826;
 }
 
 body .card img {
-  width: 18%;
+  width: 20%;
+  margin-bottom: 20px;
 }
 
 body .card .card-title {
@@ -25,7 +26,7 @@ body .card .card-title {
 body .card .card-text {
   font-family: "Lexend Deca", sans-serif;
   line-height: 1.8;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 }
 
 body .card .card-btn {

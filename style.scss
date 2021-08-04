@@ -16,12 +16,13 @@ body{
   font-size: $bodyFont;
   font-family: $titleFont;
     .card{
-        padding:18%;
+        padding:14%;
         color: $clrTranspWhite;
         background-color: $clrOrange;
         
         img{
-            width: 18%;
+            width: 20%;
+            margin-bottom: 20px;
         }
         .card-title{
             text-transform: uppercase;
@@ -31,7 +32,7 @@ body{
         .card-text{
             font-family: $paraFont;
             line-height: 1.8;
-            margin-bottom: 35px;
+            margin-bottom: 45px;
         }
         .card-btn{
             font-family: $paraFont;
