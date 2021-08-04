@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+body .card {
+  padding: 18%;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #e38826;
+}
+
+body .card img {
+  width: 18%;
+}
+
+body .card .card-title {
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+body .card .card-text {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+body .card .card-btn {
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: #e38826;
+  border: 2px solid #f2f2f2;
+}
+
+body .card .card-btn:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+body .card-2 {
+  background-color: #006970;
+}
+
+body .card-2 .card-btn {
+  color: #006970;
+}
+
+body .card-3 {
+  background-color: #004241;
+}
+
+body .card-3 .card-btn {
+  color: #004241;
+}
+
+body footer {
+  background-color: #004241;
+  padding: 3% 18%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+}
+/*# sourceMappingURL=style.css.map */

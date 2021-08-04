@@ -1,0 +1,72 @@
+// Variables
+$clrOrange:hsl(31, 77%, 52%);
+$clrCyan: hsl(184, 100%, 22%);
+$clrDarkCyan:hsl(179, 100%, 13%);
+$clrTranspWhite:hsla(0, 0%, 100%, 0.75);
+$clrLightGray:hsl(0, 0%, 95%);
+
+$bodyFont: 15px;
+$titleFont: 'Big Shoulders Display', cursive;
+$paraFont: 'Lexend Deca', sans-serif;
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-size: $bodyFont;
+  font-family: $titleFont;
+    .card{
+        padding:18%;
+        color: $clrTranspWhite;
+        background-color: $clrOrange;
+        
+        img{
+            width: 18%;
+        }
+        .card-title{
+            text-transform: uppercase;
+            color: $clrLightGray;
+        }
+
+        .card-text{
+            font-family: $paraFont;
+            line-height: 1.8;
+            margin-bottom: 35px;
+        }
+        .card-btn{
+            font-family: $paraFont;
+            text-decoration: none;
+            background-color: $clrLightGray;
+            padding: 8px 20px;
+            border-radius: 20px;
+            color: $clrOrange;
+            border: 2px solid $clrLightGray;
+            &:hover{
+                background-color: transparent;
+                color: $clrLightGray;
+            }
+        }
+    }
+    .card-2{
+        background-color: $clrCyan;
+        .card-btn{
+            color: $clrCyan;
+        }
+    }
+    .card-3{
+        background-color: $clrDarkCyan;
+        .card-btn{
+            color: $clrDarkCyan;
+        }
+    }
+    footer{
+        background-color: $clrDarkCyan;
+        padding: 3% 18%;
+        text-align: center;
+        color: $clrTranspWhite;
+        a{
+          text-decoration: none;
+          color: $clrTranspWhite;
+        }
+    }
+}
