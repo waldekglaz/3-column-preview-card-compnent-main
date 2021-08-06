@@ -7,29 +7,35 @@ body {
   font-family: "Big Shoulders Display", cursive;
 }
 
-body .card {
+body .wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 18%;
+}
+
+body .wrapper .card {
   padding: 14%;
   color: rgba(255, 255, 255, 0.75);
   background-color: #e38826;
 }
 
-body .card img {
+body .wrapper .card img {
   width: 20%;
   margin-bottom: 20px;
 }
 
-body .card .card-title {
+body .wrapper .card .card-title {
   text-transform: uppercase;
   color: #f2f2f2;
 }
 
-body .card .card-text {
+body .wrapper .card .card-text {
   font-family: "Lexend Deca", sans-serif;
   line-height: 1.8;
   margin-bottom: 45px;
 }
 
-body .card .card-btn {
+body .wrapper .card .card-btn {
   font-family: "Lexend Deca", sans-serif;
   text-decoration: none;
   background-color: #f2f2f2;
@@ -37,38 +43,72 @@ body .card .card-btn {
   border-radius: 20px;
   color: #e38826;
   border: 2px solid #f2f2f2;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
-body .card .card-btn:hover {
+body .wrapper .card .card-btn:hover {
   background-color: transparent;
   color: #f2f2f2;
 }
 
-body .card-2 {
+body .wrapper .card-1 {
+  border-radius: 10px 10px 0 0;
+}
+
+body .wrapper .card-2 {
   background-color: #006970;
 }
 
-body .card-2 .card-btn {
+body .wrapper .card-2 .card-btn {
   color: #006970;
 }
 
-body .card-3 {
+body .wrapper .card-3 {
   background-color: #004241;
+  border-radius: 0 0 10px 10px;
 }
 
-body .card-3 .card-btn {
+body .wrapper .card-3 .card-btn {
   color: #004241;
 }
 
 body footer {
-  background-color: #004241;
   padding: 3% 18%;
   text-align: center;
-  color: rgba(255, 255, 255, 0.75);
+  color: #004241;
 }
 
 body footer a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.75);
+  color: #004241;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+body footer a:hover {
+  color: #e38826;
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  body .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 8%;
+    max-width: 1024px;
+  }
+  body .wrapper .card.card-1,
+  body .wrapper .card.card-2,
+  body .wrapper .card.card-3 {
+    padding: 10% 4%;
+  }
+  body .wrapper .card.card-1 {
+    border-radius: 10px 0 0 10px;
+  }
+  body .wrapper .card.card-3 {
+    border-radius: 0 10px 10px 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -15,7 +15,14 @@ body{
   box-sizing: border-box;  
   font-size: $bodyFont;
   font-family: $titleFont;
-    .card{
+    .wrapper{
+        max-width: 80%;
+        margin:0 auto;
+        padding-top: 18%;
+        // margin: 18% auto;
+        
+    
+        .card{
         padding:14%;
         color: $clrTranspWhite;
         background-color: $clrOrange;
@@ -42,11 +49,15 @@ body{
             border-radius: 20px;
             color: $clrOrange;
             border: 2px solid $clrLightGray;
+            transition: 0.3s ease-in;
             &:hover{
                 background-color: transparent;
                 color: $clrLightGray;
             }
         }
+    }
+    .card-1{
+        border-radius: 10px 10px 0 0;
     }
     .card-2{
         background-color: $clrCyan;
@@ -56,18 +67,53 @@ body{
     }
     .card-3{
         background-color: $clrDarkCyan;
+        border-radius: 0 0 10px 10px;
         .card-btn{
             color: $clrDarkCyan;
         }
     }
+}
     footer{
-        background-color: $clrDarkCyan;
+       
         padding: 3% 18%;
         text-align: center;
-        color: $clrTranspWhite;
+        color: $clrDarkCyan;
         a{
           text-decoration: none;
-          color: $clrTranspWhite;
+          color: $clrDarkCyan;
+          transition: 0.3s ease-in;
+          
+          &:hover{
+              color:$clrOrange;
+              text-decoration: underline;
+              
+          }
         }
     }
-}
+    }
+
+    @media (min-width:1024px) {
+        body{
+        .wrapper{
+            display: flex;
+            padding-top: 8%;
+            max-width: 1024px;
+
+            .card.card-1,
+            .card.card-2,
+            .card.card-3{
+                padding: 10% 4%;
+            }
+            .card.card-1{
+                border-radius: 10px 0 0 10px;
+            }
+            .card.card-3{
+                border-radius: 0 10px 10px 0;
+            }
+        }}
+    }
+    // @media (min-width:1440px){
+    //     .wrapper{
+    //         margin: -50% auto;
+    //     }
+    // }
