@@ -10,8 +10,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Links](#links)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/waldekglaz/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://waldekglaz.github.io/3-column-preview-card-component-main/)
+- Solution URL: [Code](https://github.com/waldekglaz/3-column-preview-card-component-main)
+- Live Site URL: [Live](https://waldekglaz.github.io/3-column-preview-card-component-main/)
 
 ### Built with
 
@@ -41,4 +39,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/waldekglaz)
+- Frontend Mentor - [waldekglaz](https://www.frontendmentor.io/profile/waldekglaz)
